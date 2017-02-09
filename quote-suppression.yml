@@ -12,7 +12,7 @@ quote-suppression-config:
   aggregatorConfigurations:
     - aggregator: GOCOMPARE
       productType: MOTOR
-      suppress: SUPPRESS_NONE
+      suppress: SUPPRESS_SAME
     - aggregator: GOCOMPARE
       productType: HOME
       suppress: SUPPRESS_SAME
@@ -35,7 +35,6 @@ quote-suppression-config:
       productType: HOME
       suppress: SUPPRESS_SAME
 
-test.message: test
 #
 # This is used to map short product codes (such as those received from
 # aggregators) to a product type. This is loaded into a map on the client.
@@ -47,10 +46,10 @@ product-types-config:
     SW: MOTOR
     EH: HOME
     SH: HOME
-	
+ 
+ # Used to configure the period of configuration refreshes
 quote-suppression:
   refresh:
     delay-milliseconds: 600000
   default:
     client-timeout-milliseconds: 30000
- 
