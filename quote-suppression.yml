@@ -47,4 +47,10 @@ product-types-config:
     SW: MOTOR
     EH: HOME
     SH: HOME
+	
+quote-suppression:
+  refresh:
+    delay-milliseconds: 600000
+  default:
+    client-timeout-milliseconds: 30000
  
