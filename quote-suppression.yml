@@ -12,7 +12,7 @@ quote-suppression-config:
   aggregatorConfigurations:
     - aggregator: GOCOMPARE
       productType: MOTOR
-      suppress: SUPPRESS_ALL
+      suppress: SUPPRESS_NONE
     - aggregator: GOCOMPARE
       productType: HOME
       suppress: SUPPRESS_SAME
